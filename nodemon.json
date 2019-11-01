@@ -1,0 +1,10 @@
+{
+  "ignoreRoot": [
+    ".git",
+    "test",
+    "node_modules"
+  ],
+  "ignore": [],
+  "ext": "js,pug,json",
+  "watch": "./"
+}
