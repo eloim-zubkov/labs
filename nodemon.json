@@ -1,0 +1,10 @@
+{
+	"ignoreRoot": [
+		"app",
+		"node_modules",
+		"scripts",
+		"static"
+	],
+	"ext": "js,pug",
+	"watch": "./"
+}
