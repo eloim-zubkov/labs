@@ -7,12 +7,12 @@ const config = require('./config');
 async function init() {
 	const app = express();
 
-	app.set('views', './');
+	app.set('views', './views');
 	app.set('view engine', 'pug');
 
 	app.use(bodyParser.json());
 
-	app.use('/static', serveStatic('./static'));
+	app.use('/static', serveStatic('./builds'));
 
 	app.use(require('./router'));
 
